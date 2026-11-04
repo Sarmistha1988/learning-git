@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Markit EDM Serialised XML © Markit Group Limited-->
+<CadisXml>
+<Content Tr="CADIS.Tasks.ImportExport.Package, CADIS.IEData">
+	<VersionNumber>19.2.35.491</VersionNumber>
+	<Type>Package</Type>
+	<Header>
+		<Description Tr="string" />
+		<CreatedDate Tr="System.DateTime, mscorlib" Ir="8df2f75cbc470aa">2026/10/21 13:18:28</CreatedDate>
+		<CreatedBy>BOE\340145</CreatedBy>
+		<Server>EDM-DDW-SQL01\INST1</Server>
+		<Database>EDM_DEV_CORE</Database>
+		<Contents Tr="list">
+			<Item>[Process] TB: T_REF_FACILITY_SUBTYPE · dbo</Item>
+		</Contents>
+	</Header>
+	<BeforeScripts Tr="list" />
+	<SelectedItems Tr="list">
+		<Item>
+			<Type>Process</Type>
+			<ProcessType>TableBuilder</ProcessType>
+			<Name>T_REF_FACILITY_SUBTYPE · dbo</Name>
+			<GroupPath>Developers\Sarmistha\DAMMDM-7968_Enhance Existing Reference Facility Table</GroupPath>
+		</Item>
+	</SelectedItems>
+	<SelectedConsoleGroups Tr="list" />
+	<AfterScripts Tr="list" />
+	<DependencyFilter>None</DependencyFilter>
+	<OnlyCadisCreatedAncestors>True</OnlyCadisCreatedAncestors>
+	<IncludeConsoleGroupPermissions>False</IncludeConsoleGroupPermissions>
+	<IncludeAllConsoleGroups>False</IncludeAllConsoleGroups>
+	<IncludeWorklowProcessWeakLinks>False</IncludeWorklowProcessWeakLinks>
+	<OnlyPackageUserInterface>False</OnlyPackageUserInterface>
+	<NavigationConfiguration />
+	<IncludeNavigationConfiguration>False</IncludeNavigationConfiguration>
+	<DependencyOrder Tr="list">
+		<Item>1|33|T_REF_FACILITY_SUBTYPE · dbo</Item>
+	</DependencyOrder>
+	<ItemsManuallyExcluded>True</ItemsManuallyExcluded>
+	<ProcessesForDeletion Tr="dictionary" />
+	<ConsoleGroupDefinitions Tr="dictionary" />
+	<DatabaseObjectDefinitions Tr="dictionary" />
+	<DatabaseParameterDefinitions Tr="dictionary" />
+	<ProcessDefinitions Tr="dictionary">
+		<Item>
+			<key>1|33|T_REF_FACILITY_SUBTYPE · dbo</key>
+			<value>
+				<Type>Process</Type>
+				<Process>
+					<Type>Process</Type>
+					<ProcessType>TableBuilder</ProcessType>
+					<Name>T_REF_FACILITY_SUBTYPE · dbo</Name>
+				</Process>
+				<Dependencies Tr="list" />
+				<Definition>
+					<ProcessType>TableBuilder</ProcessType>
+					<TableBuilder Tr="CADIS.TableBuilder.Table, CADIS.TBData">
+						<Name>T_REF_FACILITY_SUBTYPE · dbo</Name>
+						<Comment Tr="string" />
+						<BestPracticeActivated>True</BestPracticeActivated>
+						<TableDefinition>
+							<Name>T_REF_FACILITY_SUBTYPE</Name>
+							<Schema>dbo</Schema>
+							<Columns Tr="dictionary">
+								<Item>
+									<key>FACILITY_SUB_TYPE_ID</key>
+									<value>
+										<Name>FACILITY_SUB_TYPE_ID</Name>
+										<Item>
+											<Name>FACILITY_SUB_TYPE_ID</Name>
+											<Type>
+												<DataType>INT</DataType>
+												<Length />
+											</Type>
+											<Nullable>False</Nullable>
+											<Identity>True</Identity>
+											<Seed>1</Seed>
+											<Increment>1</Increment>
+											<Default>
+												<DefaultName>FACILITY_SUB_TYPE_ID</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+											<Key>True</Key>
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FRAMEWORK_CODE</key>
+									<value>
+										<Name>FRAMEWORK_CODE</Name>
+										<Item>
+											<Name>FRAMEWORK_CODE</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FRAMEWORK_CODE</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FRAMEWORK_DESCRIPTION</key>
+									<value>
+										<Name>FRAMEWORK_DESCRIPTION</Name>
+										<Item>
+											<Name>FRAMEWORK_DESCRIPTION</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>200</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FRAMEWORK_DESCRIPTION</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FRAMEWORK_OWNER</key>
+									<value>
+										<Name>FRAMEWORK_OWNER</Name>
+										<Item>
+											<Name>FRAMEWORK_OWNER</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>100</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FRAMEWORK_OWNER</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>LEGAL_ENTITY</key>
+									<value>
+										<Name>LEGAL_ENTITY</Name>
+										<Item>
+											<Name>LEGAL_ENTITY</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>LEGAL_ENTITY</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FACILITY_CODE</key>
+									<value>
+										<Name>FACILITY_CODE</Name>
+										<Item>
+											<Name>FACILITY_CODE</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FACILITY_CODE</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FACILITY_SUB_TYPE_GRAIN</key>
+									<value>
+										<Name>FACILITY_SUB_TYPE_GRAIN</Name>
+										<Item>
+											<Name>FACILITY_SUB_TYPE_GRAIN</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>100</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FACILITY_SUB_TYPE_GRAIN</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FACILITY_SUB_TYPE_DESCRIPTION</key>
+									<value>
+										<Name>FACILITY_SUB_TYPE_DESCRIPTION</Name>
+										<Item>
+											<Name>FACILITY_SUB_TYPE_DESCRIPTION</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>200</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FACILITY_SUB_TYPE_DESCRIPTION</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>FACILITY_SUB_TYPE_STATUS_CODE</key>
+									<value>
+										<Name>FACILITY_SUB_TYPE_STATUS_CODE</Name>
+										<Item>
+											<Name>FACILITY_SUB_TYPE_STATUS_CODE</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>10</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>FACILITY_SUB_TYPE_STATUS_CODE</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>OPENLINK_EVENT_CODE</key>
+									<value>
+										<Name>OPENLINK_EVENT_CODE</Name>
+										<Item>
+											<Name>OPENLINK_EVENT_CODE</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>OPENLINK_EVENT_CODE</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>SUB_FACILITY_CLASSIFICATION</key>
+									<value>
+										<Name>SUB_FACILITY_CLASSIFICATION</Name>
+										<Item>
+											<Name>SUB_FACILITY_CLASSIFICATION</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>SUB_FACILITY_CLASSIFICATION</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>COLLATERAL_POOL_CODE</key>
+									<value>
+										<Name>COLLATERAL_POOL_CODE</Name>
+										<Item>
+											<Name>COLLATERAL_POOL_CODE</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>COLLATERAL_POOL_CODE</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>MINIMUM_COLLATERAL_LEVEL</key>
+									<value>
+										<Name>MINIMUM_COLLATERAL_LEVEL</Name>
+										<Item>
+											<Name>MINIMUM_COLLATERAL_LEVEL</Name>
+											<Type>
+												<DataType>VARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>MINIMUM_COLLATERAL_LEVEL</DefaultName>
+												<DefaultValue Tr="string" />
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>CADIS_SYSTEM_INSERTED</key>
+									<value>
+										<Name>CADIS_SYSTEM_INSERTED</Name>
+										<Item>
+											<Name>CADIS_SYSTEM_INSERTED</Name>
+											<Type>
+												<DataType>DATETIME</DataType>
+												<Length />
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>CADIS_SYSTEM_INSERTED</DefaultName>
+												<DefaultValue>getdate()</DefaultValue>
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>CADIS_SYSTEM_UPDATED</key>
+									<value>
+										<Name>CADIS_SYSTEM_UPDATED</Name>
+										<Item>
+											<Name>CADIS_SYSTEM_UPDATED</Name>
+											<Type>
+												<DataType>DATETIME</DataType>
+												<Length />
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>CADIS_SYSTEM_UPDATED</DefaultName>
+												<DefaultValue>getdate()</DefaultValue>
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+								<Item>
+									<key>CADIS_SYSTEM_CHANGEDBY</key>
+									<value>
+										<Name>CADIS_SYSTEM_CHANGEDBY</Name>
+										<Item>
+											<Name>CADIS_SYSTEM_CHANGEDBY</Name>
+											<Type>
+												<DataType>NVARCHAR</DataType>
+												<Length>50</Length>
+											</Type>
+											<Seed>0</Seed>
+											<Increment>0</Increment>
+											<Default>
+												<DefaultName>CADIS_SYSTEM_CHANGEDBY</DefaultName>
+												<DefaultValue>suser_sname()</DefaultValue>
+											</Default>
+											<ComputedExpression Tr="string" />
+										</Item>
+									</value>
+								</Item>
+							</Columns>
+							<Indices Tr="dictionary" />
+							<ForeignKeys Tr="dictionary" />
+							<CheckConstraints Tr="dictionary" />
+							<Functions Tr="dictionary" />
+							<Views Tr="dictionary" />
+						</TableDefinition>
+						<ReferenceDataScript Tr="string" />
+						<SQLScript>
+							<Name />
+							<Select>
+								<Phrasebook>
+									<Phrases Tr="dictionary" />
+								</Phrasebook>
+								<Text>DECLARE @const_name nvarchar(256) = (SELECT CONSTRAINT_NAME FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS WHERE CONSTRAINT_TYPE = 'PRIMARY KEY' AND TABLE_SCHEMA = 'dbo' 
+AND TABLE_NAME = 'T_REF_FACILITY_SUBTYPE')
+DECLARE @command nvarchar(max) = N'ALTER TABLE [dbo].[T_REF_FACILITY_SUBTYPE] DROP CONSTRAINT ' + @const_name
+IF @const_name IS NOT NULL
+BEGIN
+    execute(@command)
+END
+
+--Create new Constraints
+ALTER TABLE [dbo].[T_REF_FACILITY_SUBTYPE] ADD CONSTRAINT [PK_T_REF_FACILITY_SUBTYPE] PRIMARY KEY CLUSTERED (FACILITY_SUB_TYPE_ID) WITH FILLFACTOR = 100
+</Text>
+							</Select>
+							<DL>False</DL>
+							<Object />
+						</SQLScript>
+					</TableBuilder>
+				</Definition>
+				<Permissions Tr="list" />
+			</value>
+		</Item>
+	</ProcessDefinitions>
+	<OrderedConsoleGroupPaths Tr="list">
+		<Item>Developers\Sarmistha\DAMMDM-7968_Enhance Existing Reference Facility Table</Item>
+	</OrderedConsoleGroupPaths>
+</Content>
+</CadisXml>
